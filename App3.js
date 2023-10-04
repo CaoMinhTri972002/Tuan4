@@ -1,16 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import { Image } from 'react-native';
 import { Button} from 'react-native';
 import React from 'react';
 import { TextInput } from 'react-native';
-
-
-    
-
-
-  
- 
 
 
 export default function App() {
@@ -41,13 +34,14 @@ export default function App() {
   
   </View>
   <View style={styles.style4}>
-  <TextInput  style={styles.input}></TextInput>
-
+  
+  <TextInput style={styles.input} placeholder="Email"></TextInput>
 
   </View>
   <View style={styles.style5}>
-  <Button title="NEXT" color='#E3C000' style={styles.button}></Button>
- 
+     <TouchableOpacity>
+                <Text style={styles.btnSubmit}>NEXT</Text>
+            </TouchableOpacity>
   
   </View>
   
@@ -67,6 +61,13 @@ export default function App() {
       justifyContent:'space-around',
       alignItems:'center'
     },
+    btnSubmit: {
+      width: 280,
+      textAlign: "center",
+      fontWeight: 700,
+      backgroundColor: "#E3C000",
+      paddingVertical: "12px"
+  },
     style2:{
       flex: 0.8,
      
@@ -113,7 +114,8 @@ export default function App() {
         flex: 0.5,
    
         flexDirection: 'column',
-       alignContent:'center',
+        alignItems:'center',
+        justifyContent: 'space-evenly'
     
     
 
