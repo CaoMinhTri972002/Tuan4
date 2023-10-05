@@ -14,31 +14,39 @@ export default function App() {
 
         <StatusBar style="auto" />
           <View style={styles.style1}>
-            <Image source={require('./assets/lock.png')}
-                   style={{width:'150px',height:'150px'}}
-            >
+            <Text style={{fontSize:50,fontStyle:'Roboto',fontWeight:'bold',textAlign:'center'}}>CODE  </Text>
+            
               
-            </Image>
+          
           </View>
           <View style={styles.style2}>
-          <Text style={{fontSize: 20,textAlign:'center',fontWeight:'bold'}}>{'FORGET \n PASSWORD'}</Text>
+          <Text style={{fontSize: 20,textAlign:'center',fontWeight:'bold'}}>{'VERIFICATION'}</Text>
          
              
   
   
   </View>
   <View style={styles.style3}>
-        <Text style={styles.innerText}>provide your account's email for which you<br/>want to reset your password </Text>
+        <Text style={styles.innerText}>Enter ontime password sent on<br/>++849092605798
+ </Text>
           </View>
           <View style={styles.style4}>
   
   </View>
   <View style={styles.style4}>
-  <Image style={styles.mailIcon} source={require('./assets/mail.png')}
- >
-  </Image>
-  <TextInput style={styles.input} placeholder="Email"></TextInput>
 
+
+  <TextInput style={styles.input}></TextInput>
+
+  <TextInput style={styles.input1}></TextInput>
+  
+  <TextInput style={styles.input2}></TextInput>
+  
+  <TextInput style={styles.input3}></TextInput>
+  
+  <TextInput style={styles.input4}></TextInput>
+  
+  <TextInput style={styles.input5}></TextInput>
   </View>
   <View style={styles.style5}>
      <TouchableOpacity>
@@ -63,7 +71,56 @@ export default function App() {
       justifyContent:'space-around',
       alignItems:'center'
     },
-
+input1:{
+    borderWidth:1,
+    position:'absolute',
+    padding:8,
+    backgroundColor:'#C4C4C400',
+    borderWidth:'1px',
+    width:50,
+    right:108,
+    height:50
+},
+input2:{
+    borderWidth:1,
+    position:'absolute',
+    padding:8,
+    backgroundColor:'#C4C4C400',
+    borderWidth:'1px',
+    width:50,
+    right:155,
+    height:50
+},
+input3:{
+    borderWidth:1,
+    position:'absolute',
+    padding:8,
+    backgroundColor:'#C4C4C400',
+    borderWidth:'1px',
+    width:50,
+    right:205,
+    height:50
+},
+input4:{
+    borderWidth:1,
+    position:'absolute',
+    padding:8,
+    backgroundColor:'#C4C4C400',
+    borderWidth:'1px',
+    width:50,
+    right:253,
+    height:50
+},
+input5:{
+    borderWidth:1,
+    position:'absolute',
+    padding:8,
+    backgroundColor:'#C4C4C400',
+    borderWidth:'1px',
+    width:50,
+    right:303,
+    height:50
+},
     mailIcon:{
          position:'absolute',
          width:"40px", 
@@ -105,11 +162,12 @@ export default function App() {
   
       flex: 0.5,
       width: "100%",
-      position: "relative",
+      
       flexDirection: "row",
+      justifyContent:'center',
       alignItems: "center",
-      marginBottom: "40px"
-
+      marginBottom: "40px",
+    
       
       
      
@@ -117,12 +175,12 @@ export default function App() {
     input:{
   borderWidth:1,
   position:'absolute',
-  borderColor: '#777',
   padding:8,
-  backgroundColor:'gray',
-  width:235,
+  backgroundColor:'#C4C4C400',
+  borderWidth:'1px',
+  width:50,
   right:60,
-  height:45
+  height:50
     },
     style5:{
         
