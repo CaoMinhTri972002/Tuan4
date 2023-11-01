@@ -10,11 +10,6 @@ export default function App() {
 
         <StatusBar style="auto" />
           <View style={styles.style1}>
-            <Image source={require('./assets/Ellipse 8.png')}
-                   style={{width:'200px',height:'200px'}}
-            >
-              
-            </Image>
           </View>
           <View style={styles.style2}>
           <Text style={{fontSize: 20,textAlign:'center'}}>{'GROW \n YOUR BUSINESS'}</Text>

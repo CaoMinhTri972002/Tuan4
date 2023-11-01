@@ -6,11 +6,11 @@ import App4 from './App4'
 import App5 from './App5'
 export default function App() {
   return (
-    <App1/>,
-    <App2/>,
-    <App3/>,
-    <App4/>,
-    <App5/>
+    <App1/>
+    //<App2/>
+    //<App3/>
+   // <App4/>
+   // <App5/>
   );
 }
 
